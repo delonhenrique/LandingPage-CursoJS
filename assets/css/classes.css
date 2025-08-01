@@ -14,12 +14,9 @@
     max-width: 120rem; /* 1200px */
     margin: 0 auto;
     padding: var(--gap);
+    padding-top: 8rem;
 }
 
 .section {
     min-height: 100vh; /* Full viewport height */
-}
-
-.menu-spacing {
-    height: 6.3rem;
 }
