@@ -5,6 +5,7 @@
     right: 0;
     width: 100%;
     border-bottom: 0.1rem solid var(--light-gray-color);
+    z-index: 10;
 }
 
 .menu-content {
@@ -31,6 +32,8 @@
 
 .menu ul li a {
     display: block;
+    max-height: 2.3rem;
+    min-width: 4.5rem;
     padding: 2rem;
     font-size: 1.8rem; /* 18px */
     color: var(--primary-color);
