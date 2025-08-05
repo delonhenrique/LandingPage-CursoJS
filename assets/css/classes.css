@@ -1,5 +1,7 @@
 .main-bg {
-    background-image: url('../img/main-bg.svg');
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+        url('../img/main-bg.svg');
     background-size: cover;
     background-position: center center;
     color: var(--white-color);
