@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 0;
-    padding-bottom: 0;
+    /* padding-bottom: 2rem; */
 }
 
 .menu h1 {
@@ -44,7 +44,7 @@
 .menu ul li a::after {
     content: '';
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
     left: 50%;
     width: 0;
     height: 0.2rem;
@@ -55,4 +55,14 @@
 .menu ul li a:hover::after {
     width: 50%;
     left: 25%;
+    bottom: -15%;
+}
+.menu-logo{
+    display: block;
+    max-height: 2.3rem;
+    min-width: 4.5rem;
+    padding: 1.8rem;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    position: relative;
 }
