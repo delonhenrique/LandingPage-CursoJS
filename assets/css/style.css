@@ -171,6 +171,10 @@
         grid-template-columns: 1fr;
     }
 
+    .intro-content > * {
+        grid-column: 1 / -1;
+    }
+
     .gallery-img {
         width: 100%;
         max-width: 100%;
@@ -180,6 +184,5 @@
     .gallery-img img {
         width: 100%;
     }
-
 
 }
